@@ -1,0 +1,142 @@
+* body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #4877fb;
+  height: 100vh;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Navigacija */
+
+.navigation {
+  flex-basis: 150px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4877fb;
+  align-items: baseline;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #4877fb;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #9cc3d5ff;
+  text-decoration: underline;
+  display: block;
+}
+
+.navigation h1 {
+  color: white;
+}
+
+/* Title-conteiner */
+
+.title-conteiner {
+  background-color: #4877fb;
+  flex-basis: 150px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-conteiner img {
+  height: 300px;
+  width: 400px;
+}
+
+.tekst {
+  color: white;
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.tekst h1 {
+  font-size: 50px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.tekst a {
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+.tekst p {
+  margin-top: 10px;
+  color: #9cc3d5ff;
+}
+
+.tekst a:hover {
+  background-color: #9cc3d5ff;
+  display: inline;
+  border-radius: 25px;
+}
+
+/* Bottom-conteiner */
+.bottom-conteiner {
+  background-color: #4877fb;
+  flex-basis: 150px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: yellow;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.kartica1 {
+  background-color: red;
+  width: 25%;
+}
+.kartica2 {
+  background-color: green;
+  width: 25%;
+}
+.kartica3 {
+  background-color: blue;
+  width: 25%;
+}
+.kartica4 {
+  background-color: crimson;
+  width: 25%;
+}
