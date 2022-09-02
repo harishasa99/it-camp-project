@@ -118,7 +118,8 @@
 .footer {
   background-color: #4877fb;
   height: 37vh;
-  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
