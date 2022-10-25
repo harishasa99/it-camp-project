@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="text-align: center; background-color: #ccc">
+      <div>
+        <img id="slika" width="600px" height="400px" style="margin: 15px 0px" />
+      </div>
+      <div id="name" style="margin-bottom: 15px"></div>
+      <button
+        id="buttonslika1"
+        style="
+          margin-right: 15px;
+          border: none;
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+          font-weight: bold;
+          margin-bottom: 15px;
+        "
+      >
+        Bulbasaur
+      </button>
+      <button
+        id="buttonslika2"
+        style="
+          margin-right: 15px;
+          border: none;
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+          font-weight: bold;
+          margin-bottom: 15px;
+        "
+      >
+        Charmander
+      </button>
+      <button
+        id="buttonslika3"
+        style="
+          margin-right: 15px;
+          border: none;
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+          font-weight: bold;
+          margin-bottom: 15px;
+        "
+      >
+        Pikachu
+      </button>
+      <button
+        id="buttonslika4"
+        style="
+          margin-right: 15px;
+          border: none;
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+          font-weight: bold;
+          margin-bottom: 15px;
+        "
+      >
+        Chikorita
+      </button>
+      <button
+        id="buttonslika5"
+        style="
+          margin-right: 15px;
+          border: none;
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+          font-weight: bold;
+          margin-bottom: 15px;
+        "
+      >
+        Psyduck
+      </button>
+    </div>
+
+    <script>
+      //   var bulbasaurBorder = "border: 5px solid green";
+      //   var charmanderBorder = "border: 5px solid red";
+      //   var pikachuBorder = "border: 5px solid yellow";
+      //   var psyduckBorder = "border: 5px solid #ebe41a";
+
+      document
+        .getElementById("buttonslika1")
+        .addEventListener("click", function () {
+          document.getElementById("slika").src = "slike/bulbasau.jpg";
+          document.getElementById("slika").style =
+            "border: 5px solid green; margin: 15px 0px";
+          document.getElementById("name").textContent = "Name: Bulbasaur";
+          document.getElementById("name").style =
+            "color: green; font-weight: bold; margin-bottom: 15px;";
+        });
+
+      document
+        .getElementById("buttonslika2")
+        .addEventListener("click", function () {
+          document.getElementById("slika").src = "slike/charmander.png";
+          document.getElementById("slika").style =
+            "border: 5px solid red; margin: 15px 0px;";
+          document.getElementById("name").textContent = "Name: Charmander";
+          document.getElementById("name").style =
+            "color: red; font-weight: bold; margin-bottom: 15px;";
+        });
+
+      document
+        .getElementById("buttonslika3")
+        .addEventListener("click", function () {
+          document.getElementById("slika").src = "slike/pikachu.png";
+          document.getElementById("slika").style =
+            "border: 5px solid yellow; margin: 15px 0px;";
+          document.getElementById("name").textContent = "Name: Pikachu";
+          document.getElementById("name").style =
+            "color: yellow; font-weight: bold; margin-bottom: 15px;";
+        });
+
+      document
+        .getElementById("buttonslika4")
+        .addEventListener("click", function () {
+          document.getElementById("slika").src = "slike/chikorita.png";
+          document.getElementById("slika").style =
+            "border: 5px solid green; margin: 15px 0px;";
+          document.getElementById("name").textContent = "Name: Chikorita";
+          document.getElementById("name").style =
+            "color: green; font-weight: bold; margin-bottom: 15px";
+        });
+
+      document
+        .getElementById("buttonslika5")
+        .addEventListener("click", function () {
+          document.getElementById("slika").src = "slike/psyduck.png";
+          document.getElementById("slika").style =
+            "border: 5px solid #ebe41a; margin: 15px 0px;";
+          document.getElementById("name").textContent = "Name: Psyduck";
+          document.getElementById("name").style =
+            "color: #ebe41a; font-weight: bold; margin-bottom: 15px";
+        });
+    </script>
+  </body>
+</html>
